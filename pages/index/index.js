@@ -13,7 +13,7 @@ Page({
   changeName:function(e){
     console.log(this.data.name='hello wechat');
     this.setData({
-      motto:'hello wechat'
+      motto:'kong lingling'
     })
   },
   //事件处理函数
