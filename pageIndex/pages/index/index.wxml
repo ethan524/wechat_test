@@ -1,0 +1,11 @@
+<!-- index.wxml -->
+<view class='container'>
+  <!-- 主体内容 -->
+  <view class="body_level" style="background:url({{background}});">
+    <view class="logo_robot" >
+      <image src='{{logo_robot}}'></image>
+    </view>
+  </view>
+  <view>
+  </view>
+</view>
