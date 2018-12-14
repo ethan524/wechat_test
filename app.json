@@ -1,28 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pageIndex/pages/index/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "智能客服",
-    "navigationBarTextStyle":"black"
-  },
-  "tabBar":{
-    "list":[
-     {
-       "selectedIconPath": "pages/images/index/mipmap-hdpi/icon-home-default.png",
-       "iconPath":"pages/images/index/mipmap-hdpi/icon-home-default.png",
-       "text":"主页",
-       "pagePath":"pages/index/index"
-     },
-     {
-       "selectedIconPath": "pages/images/index/mipmap-hdpi/icon-skill-active.png",
-       "iconPath": "pages/images/index/mipmap-hdpi/icon-skill-default.png",
-       "text":"技能",
-       "pagePath": "pages/index/index"
-     }
-    ]
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":false
   }
 }
