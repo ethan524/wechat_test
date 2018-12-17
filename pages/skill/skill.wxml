@@ -1,0 +1,12 @@
+<view class="nevBar-view">
+  <nevBar></nevBar>
+</view>
+<view class="container">
+  <view class="body-level" style="height:{{body_height}}">
+  here is the skill page
+  </view>
+    <!-- 自定义tabBar -->
+  <view class="tabBar-view">
+    <tabBar></tabBar>
+  </view>
+</view>

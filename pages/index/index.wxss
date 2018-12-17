@@ -1,0 +1,86 @@
+/**index.wxss**/
+.container{
+  width : 100%;
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+}
+
+.body_level{
+  width: 100%;
+}
+
+.logo_robot{
+  width: 122px;
+  height: 122px;
+  margin: auto;
+  margin-top:90px;
+  padding: 0px;
+}
+.logo_robot image{
+  width: 122px;
+  height: 122px;
+}
+.logo_text{
+  text-align: center;
+  color: white;
+  font-size:14px;
+}
+.introduce{
+  width: 332px;
+  height: 110px;
+  margin:0px auto;
+  margin-bottom: 10px;
+  margin-top:70px;
+}
+.items-view{
+  width: 100%;
+  overflow: hidden;
+  margin-top:15px;
+  text-align: center;
+}
+.item-text{
+  float: left;
+  font-size:14px;
+  color:#43979F;
+}
+.first_text{
+  padding-left: 55px;
+}
+.items-view .line{
+  font-size: 12px;
+  line-height: 18px;
+  color:#43979F;
+  margin:0px 8px;
+}
+.version-intro{
+  color:#0FF7EF;
+  font-size:14px;
+  text-align: center;
+  margin-top:20px;
+}
+.experience{
+  width:242px;
+  height: 47px;
+  margin: auto;
+}
+.experience image{
+  width:242px;
+  height: 47px;
+}
+.platform-intro{
+  width:336px;
+  height: 22px;
+  margin:26px auto 0px;
+}
+
+.platform{
+  height: 15px;
+  font-size: 14px;
+  color:#5D5D5D;
+  text-align: center;
+}
+.copyright{
+  font-size:12px;
+  margin-top:5px;
+}

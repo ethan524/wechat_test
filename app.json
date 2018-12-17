@@ -1,12 +1,14 @@
 {
   "pages":[
-    "pageIndex/pages/index/index"
+    "pages/index/index",
+    "pages/skill/skill"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "智能客服",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":false
+    "enablePullDownRefresh":false,
+    "navigationStyle": "custom"
   }
 }
