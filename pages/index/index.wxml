@@ -1,8 +1,9 @@
 <!-- index.wxml -->
-<view class="nevBar-view">
-  <navBar></navBar>
-</view>
 <view class='container'>
+  <!-- 自定义导航 -->
+  <view class="nevBar-view">
+    <navBar></navBar>
+  </view>
   <!-- 主体内容 -->
   <view class="body_level" style="background:url({{background}});height:{{body_height}}">
     <view class="logo_robot" >
@@ -33,7 +34,7 @@
       </view>
     </view>
   </view>
-  <!-- 自定义tabBar -->
+  <!-- 自定义底部菜单 -->
   <view class="tabBar-view">
     <tabBar></tabBar>
   </view>
