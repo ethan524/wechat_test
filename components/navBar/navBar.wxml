@@ -1,5 +1,5 @@
 <view class="topBar">
-  <view class="topBar-top"></view>
+  <view class="topBar-top" style="height:{{topBar_height}}"></view>
   <view class="topBar-down">
     <view   class="left_button" bindtap='goBack' style="display:{{back_style}};"><text>返回</text></view>
     <view class="middle_title"><text>智能对话机器人</text></view>

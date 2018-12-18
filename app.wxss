@@ -17,8 +17,9 @@ page{
 }
 
 .nevBar-view{
-  height: 64px;
+  /* height: 96px; */
+  /* height:128rpx; */
   width:100%;
-  padding: 0px;
-  margin: 0px;
+  padding: 0rpx;
+  margin: 0rpx;
 }

@@ -5,7 +5,8 @@ Page({
   data: {
     "background" : "/images/mipmap-hdpi/backgr.png",  //背景图片
     "logo_robot" : "/images/mipmap-hdpi/logo-robot.png",
-    "body_height" : '' 
+    "body_height": app.globalData.body_height,
+    "nav_height": app.globalData.nav_height
   },
   onLoad: function () {
     var that = this;
@@ -13,17 +14,5 @@ Page({
     that.setData({
       'background': 'data:image/jpg;base64,' + base64
     });
-
-    wx.getSystemInfo({
-      success: function (res) {
-        // 设置高度
-        let h = res.windowHeight - 49 - 64;
-        that.setData({
-          'body_height' : h+'px'
-        })
-      }
-    })
-
-
   },
 })

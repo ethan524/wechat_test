@@ -1,6 +1,9 @@
 //app.js
 App({
   onLaunch: function () {
+
+    var that = this;
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,8 +35,22 @@ App({
         }
       }
     })
+
+    wx.getSystemInfo({
+      success: function (res) {
+        // 设置内容高度
+        let navBar_height = res.model == 'iPhone X' ? (64 + 32) : 64;
+        let tabBar_height = 51;
+        let body_height = (res.windowHeight - navBar_height - tabBar_height) + 'px';
+        that.globalData.body_height = body_height;
+
+        //头部菜单高度
+        that.globalData.nav_height =  res.model == 'iPhone X' ? "96px" : "64px";
+      }
+    })
   },
   globalData: {
-    userInfo: null
+    "body_height" : "", //页面主体高度
+    "nav_height" : "" //头部菜单高度，iphone x = 96
   }
 })

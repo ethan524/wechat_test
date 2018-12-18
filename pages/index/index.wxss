@@ -5,82 +5,114 @@
   padding:0;
   margin: 0;
 }
-
 .body_level{
   width: 100%;
+  background: gray;
 }
-
 .logo_robot{
-  width: 122px;
-  height: 122px;
+  /* width: 122px;
+  height: 122px; */
+  width:244rpx;
+  height:244rpx;
   margin: auto;
-  margin-top:90px;
-  padding: 0px;
+  /* margin-top:90px; */
+  margin-top:180rpx;
+  padding: 0rpx;
 }
 .logo_robot image{
-  width: 122px;
-  height: 122px;
+  /* width: 122px;
+  height: 122px; */
+  width: 244rpx;
+  height: 244rpx;
 }
 .logo_text{
   text-align: center;
   color: white;
-  font-size:14px;
+  /* font-size:14px; */
+  font-size:28rpx;
 }
 .introduce{
-  width: 332px;
+  /* width: 332px;
   height: 110px;
   margin:0px auto;
   margin-bottom: 10px;
-  margin-top:70px;
+  margin-top:70px; */
+
+  width: 664rpx;
+  height: 220rpx;
+  margin:0rpx auto;
+  margin-bottom: 20rpx;
+  margin-top:140rpx;
+
+
 }
 .items-view{
   width: 100%;
   overflow: hidden;
-  margin-top:15px;
+  /* margin-top:15px; */
+  margin-top:30rpx;
   text-align: center;
 }
 .item-text{
   float: left;
-  font-size:14px;
+  /* font-size:14px; */
+  font-size:28rpx;
   color:#43979F;
 }
 .first_text{
-  padding-left: 55px;
+  /* padding-left: 55px; */
+  padding-left: 110rpx;
 }
 .items-view .line{
-  font-size: 12px;
-  line-height: 18px;
   color:#43979F;
-  margin:0px 8px;
+  /* font-size: 12px;
+  line-height: 18px;
+  margin:0px 8px; */
+  font-size: 24rpx;
+  line-height: 36rpx;
+  margin:0rpx 16rpx;
 }
 .version-intro{
   color:#0FF7EF;
-  font-size:14px;
   text-align: center;
-  margin-top:20px;
+  /* font-size:14px;
+  margin-top:20px; */
+  font-size:28rpx;
+  margin-top:40rpx;
 }
 .experience{
-  width:242px;
-  height: 47px;
+  /* width:242px;
+  height: 47px; */
+  width:484rpx;
+  height: 94rpx;
   margin: auto;
 }
 .experience image{
-  width:242px;
-  height: 47px;
+  /* width:242px;
+  height: 47px; */
+  width:484rpx;
+  height: 94rpx;
 }
 .platform-intro{
-  width:336px;
+  /* width:336px;
   height: 22px;
-  margin:26px auto 0px;
+  margin:26px auto 0px; */
+  width:672rpx;
+  height: 44rpx;
+  margin:52rpx auto 0rpx;
 }
 
 .platform{
-  height: 15px;
-  font-size: 14px;
+  /* height: 15px;
+  font-size: 14px; */
+  height: 30rpx;
+  font-size: 28rpx;
   color:#5D5D5D;
   text-align: center;
 }
 .copyright{
-  font-size:12px;
-  margin-top:5px;
+  /* font-size:12px;
+  margin-top:5px; */
+  font-size:24rpx;
+  margin-top:10rpx;
 }

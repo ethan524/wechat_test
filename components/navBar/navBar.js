@@ -1,7 +1,8 @@
 const app = getApp();
 Component({
   data : {
-    "back_style" : 'none'
+    "back_style" : 'none',
+    "topBar_height" : ''
   },
   ready : function(){
     let that = this;
@@ -13,6 +14,18 @@ Component({
         "back_style" : "block"
       });
     }
+
+    wx.getSystemInfo({
+      success: function (res) {
+        // 设置内容高度
+        let navBar_height = res.model == 'iPhone X' ? "45px" : "20px";
+        console.log(navBar_height)
+        that.setData({
+          "topBar_height": navBar_height
+        })
+      }
+    })
+
   },
   methods : {
     goBack(){
