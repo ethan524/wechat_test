@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/skill/skill"
+    "pages/skill/skill",
+    "pages/index/index"
+    
   ],
   "window":{
     "backgroundTextStyle":"dark",

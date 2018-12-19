@@ -2,7 +2,8 @@ const app = getApp();
 Component({
   data : {
     "back_style" : 'none',
-    "topBar_height" : ''
+    "topBar_height" : '',
+    "head_title": ''
   },
   ready : function(){
     let that = this;
@@ -11,7 +12,12 @@ Component({
     if(page_arr[1] != 'index' && page_arr[2] != 'index'){
       console.log(page_url);
       that.setData({
-        "back_style" : "block"
+        "back_style" : "block",
+        "head_title" : "技能"
+      });
+    }else{
+      that.setData({
+        "head_title": "智能机器人"
       });
     }
 

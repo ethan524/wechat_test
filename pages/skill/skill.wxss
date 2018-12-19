@@ -8,4 +8,131 @@
 .body-level{
   width: 100%;
   height:623px;
+  background: #FAFAFA;
+}
+.tips-view{
+  width:708rpx;
+  height:312rpx;
+  margin:24rpx auto 24rpx;
+}
+.tips-title{
+  width: 100%;
+  text-align: center;
+  font-size:16px;
+}
+.tips-try{
+  width: 100%;
+  height:251rpx;
+  margin-top:24rpx;
+  border:2rpx solid #EBEBEB;
+  border-radius: 22rpx;
+}
+.tips-image,.tips-trytext{
+  float: left;
+  height: 250rpx;
+}
+.tips-image{
+  width:330rpx;
+}
+.tips-image image{
+  width:330rpx;
+  height: 250rpx;
+}
+.tips-trytext{
+  width:378rpx;
+}
+.clickme-text{
+  margin:44rpx 0rpx 30rpx 40rpx;
+  font-size:28rpx;
+}
+.tips-down-text{
+  margin-left: 40rpx;
+  float: left;
+}
+
+.tips-tipstext{
+  font-size: 28rpx;
+  color:#2EB6E1;
+}
+.tips-right-arrow{
+  float: right;
+  margin-right: 36rpx;
+  /* margin-top:-4rpx; */
+}
+.tips-right-arrow image{
+  width: 12rpx;
+  height: 30rpx;
+}
+.siklls_title{
+  width:100%;
+  height:52rpx;
+  margin: 30rpx auto 20rpx;
+  text-align: center;
+  font-size:32rpx;
+}
+.all_skills{
+  /* height:540rpx; */
+  overflow: hidden;
+}
+.lines{
+  height:172rpx;
+  margin-bottom: 12rpx;
+}
+.last_lines{
+  margin-bottom: 0rpx;
+}
+.f_l{
+  float: left;
+}
+.f_r{
+  float: right;
+}
+.skill_block{
+  width:348rpx;
+  height:172rpx;
+  background: white;
+  border:2rpx solid #E4E4E4;
+  border-radius: 6rpx;
+}
+.left_logo{
+  width:140rpx;
+  height:172rpx;
+  text-align: center;
+}
+.left_logo image{
+  width:82rpx;
+  height:82rpx;
+  margin-top:45rpx;
+}
+.right_intro{
+  width:172rpx;
+  padding-top:28rpx;
+  margin-right: 34rpx;
+  
+}
+.r_title{
+  color:#606060;
+  font-size:28rpx;
+  margin-bottom: 16rpx;
+}
+.r_title_intro{
+  color:#0285CF;
+  font-size:24rpx;
+}
+.get_more{
+  width: 100%;
+  overflow: hidden;
+  text-align: right;
+  font-size:24rpx;
+  margin-top:8rpx;
+  color:#A8B0B4;
+}
+.hot_sentence{
+  width: 100%;
+  margin:8rpx auto;
+}
+.hot_title{
+  font-size:28rpx;
+  color:#383838;
+  text-align: center;
 }
