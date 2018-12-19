@@ -86,8 +86,26 @@
     </view>
     <view class="hot_sentence">
       <view class="hot_title"><text>热门语句</text></view>
+      <view class="hot_title_name"><navigator><text>"刘德华香港红磡演唱会"</text></navigator></view>
+      <view class="hot_title_name"><navigator><text>"最近一周天气"</text></navigator></view>
+      <view class="hot_title_name"><navigator><text>"北京到上海的机票"</text></navigator></view>
+      <view class="hot_title_name"><navigator><text>"周杰伦最新单曲"</text></navigator></view>
     </view>
-
+    <view class="user_input">
+      <input class="user_try_input" placeholder="您可以在阳历机器人中尝试输入" type='text' />
+    </view>
+    <view class="create_robot_view">
+      <view class="f_l">
+        <view class="create_image f_l"><image src="../../images/skill/illlus.png"></image></view>
+        <view class="create_text f_r">
+          <view class="create_up_text"><text>新建机器人</text></view>
+          <view class="create_down_text"><text>亲可新建自己的机器人</text></view>
+        </view>
+      </view>
+      <view class="f_r right_share">
+        <image src="../../images/skill/CombinedShape.png"></image>
+      </view>
+    </view>
   </scroll-view>
   <!-- 自定义底部菜单 -->
   <view class="tabBar-view">
