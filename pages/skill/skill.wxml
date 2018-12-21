@@ -1,111 +1,91 @@
 <view class="container">
-  <!-- 自定义导航 -->
-  <view class="nevBar-view">
-    <navBar></navBar>
-  </view>
-  <scroll-view scroll-y class="body-level" style="height:{{body_height}}">
-    <view class="tips-view">
-      <view class="tips-title"><text>样例机器人</text></view> 
-      <view class="tips-try">
-        <view class="tips-image">
-          <image src="../../images/skill/illlus1.png"></image>
-        </view>
-        <view class="tips-trytext">
-          <view class="clickme-text"><text>点我试试看哦~</text></view>
-          <view class="tips-down-text">
-            <view class="tips-tipstext"><text>亲可以尝试与我互动~</text></view>
-            <view class="tips-tipstext"><text>看看我有什么功能：)</text></view>
-          </view>
-          <view class="tips-right-arrow">
-            <image src='../../images/skill/Combined Shape1.png'></image>
-          </view>
-        </view>
+  <scroll-view scroll-y class="body_view">
+    <view class="skill_title">样例机器人</view>
+    <view class="skill_try">
+      <view class="tips-image"><image src="../../images/illlus1.png"></image></view>
+      <view class="tips-text">
+        <view class="clickme-text"><text>点我试试看哦~</text></view>
+        <view class="tips-tipstext"><text>亲可以尝试与我互动~</text></view>
+        <view class="tips-tipstext"><text>看看我有什么功能：)</text></view>
       </view>
-      <view class="siklls_title">
-        <text>最新技能</text>
-      </view>
-      <view class="all_skills">
-        <view class="lines">
-          <view class="skill_block f_l">
-            <view class="left_logo f_l"><image src="../../images/skill/Group41.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>移动业务查询</text></view>
-              <view class="r_title_intro"><text>套餐/花费/流量</text></view>
-              <view class="r_title_intro"><text>等移动业务查询</text></view>
-            </view>
-          </view>
-          <view class="skill_block f_r">
-            <view class="left_logo f_l"><image src="../../images/skill/Group42.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>寒暄笑话</text></view>
-              <view class="r_title_intro"><text>闲聊/寒暄/笑话</text></view>
-              <view class="r_title_intro"><text>陪伴您闲暇时光</text></view>
-            </view>
-          </view>
-        </view>
-        <view class="lines">
-          <view class="skill_block f_l">
-            <view class="left_logo f_l"><image src="../../images/skill/Group43.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>天气查询</text></view>
-              <view class="r_title_intro"><text>能帮您实时查询</text></view>
-              <view class="r_title_intro"><text>为了天气情况</text></view>
-            </view>
-          </view>
-          <view class="skill_block f_r">
-            <view class="left_logo f_l"><image src="../../images/skill/Group45.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>知识百科</text></view>
-              <view class="r_title_intro"><text>最全的百科知识</text></view>
-              <view class="r_title_intro"><text>帮您一下全掌握</text></view>
-            </view>
-          </view>
-        </view>
-        <view class="lines last_lines">
-          <view class="skill_block f_l">
-            <view class="left_logo f_l"><image src="../../images/skill/Group46.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>实时翻译</text></view>
-              <view class="r_title_intro"><text>具实时翻译功能</text></view>
-              <view class="r_title_intro"><text>可精准快速翻译</text></view>
-            </view>
-          </view>
-          <view class="skill_block f_r">
-            <view class="left_logo f_l"><image src="../../images/skill/Group44.png"></image></view>
-            <view class="right_intro f_r">
-              <view class="r_title"><text>酒店预订</text></view>
-              <view class="r_title_intro"><text>机器人帮您轻松</text></view>
-              <view class="r_title_intro"><text>预定待入住酒店</text></view>
-            </view>
-          </view>
-        </view>
-      </view>
-      <view class="get_more">
-        <text>更多技能解锁中...敬请期待</text>
+      <view class="tips-right-arrow">
+        <image src='../../images/CombinedShape1.png'></image>
       </view>
     </view>
-    <view class="hot_sentence">
-      <view class="hot_title"><text>热门语句</text></view>
-      <view class="hot_title_name"><navigator><text>"刘德华香港红磡演唱会"</text></navigator></view>
-      <view class="hot_title_name"><navigator><text>"最近一周天气"</text></navigator></view>
-      <view class="hot_title_name"><navigator><text>"北京到上海的机票"</text></navigator></view>
-      <view class="hot_title_name"><navigator><text>"周杰伦最新单曲"</text></navigator></view>
+    <view class="skill_new">最新技能</view>
+    <view class="skill_skills">
+      <view class="skills">
+        <view class="skill_tag">
+          <view class="left_logo "><image src="../../images/Group41.png"></image></view>
+          <view class="right_intro">
+              <view class="r_title">移动业务查询</view>
+              <view class="r_title_intro">套餐/花费/流量</view>
+              <view class="r_title_intro">等移动业务查询</view>
+          </view>
+        </view>
+        <view class="skill_tag">
+          <view class="left_logo   "><image src="../../images/Group42.png"></image></view>
+            <view class="right_intro   ">
+              <view class="r_title">寒暄笑话</view>
+              <view class="r_title_intro">闲聊/寒暄/笑话</view>
+              <view class="r_title_intro">陪伴您闲暇时光</view>
+            </view>
+        </view>
+        <view class="skill_tag">
+          <view class="left_logo   "><image src="../../images/Group43.png"></image></view>
+            <view class="right_intro   ">
+              <view class="r_title">天气查询</view>
+              <view class="r_title_intro">能帮您实时查询</view>
+              <view class="r_title_intro">为了天气情况</view>
+            </view>
+        </view>
+        <view class="skill_tag">
+          <view class="left_logo   "><image src="../../images/Group45.png"></image></view>
+            <view class="right_intro   ">
+              <view class="r_title">知识百科</view>
+              <view class="r_title_intro">最全的百科知识</view>
+              <view class="r_title_intro">帮您一下全掌握</view>
+            </view>
+        </view>
+        <view class="skill_tag no_bottom">
+          <view class="left_logo   "><image src="../../images/Group46.png"></image></view>
+            <view class="right_intro   ">
+              <view class="r_title">实时翻译</view>
+              <view class="r_title_intro">具实时翻译功能</view>
+              <view class="r_title_intro">可精准快速翻译</view>
+            </view>
+        </view>
+        <view class="skill_tag no_bottom">
+          <view class="left_logo   "><image src="../../images/Group44.png"></image></view>
+            <view class="right_intro   ">
+              <view class="r_title">酒店预订</view>
+              <view class="r_title_intro">机器人帮您轻松</view>
+              <view class="r_title_intro">预定待入住酒店</view>
+            </view>
+        </view>
+      </view>
     </view>
-    <view class="user_input">
-      <input class="user_try_input" placeholder="您可以在阳历机器人中尝试输入" type='text' />
+    <view class="skill_more">更多技能解锁中…敬请期待</view>
+    <view class="hot_keywords">
+      <view class="hot_keywords_title">热门语句</view>
+      <view class="hot_keywords_list">
+        <block wx:for="{{hot_keywords_list}}" wx:key="itemKey">
+          <view class="keyword_text"><navigator>{{item}}</navigator></view>
+        </block>
+      </view>
     </view>
-    <view class="create_robot_view">
-      <view class="f_l">
-        <view class="create_image f_l"><image src="../../images/skill/illlus.png"></image></view>
-        <view class="create_text f_r">
+    <view class="input_view">
+      <input class="user_try_input" placeholder="您可在样例机器人中尝试输入" type='text' />
+    </view>
+    <view class="skill_create">
+      <view class="create_image"><image src="../../images/illlus.png"></image></view>
+      <view class="create_text">
           <view class="create_up_text"><text>新建机器人</text></view>
           <view class="create_down_text"><text>亲可新建自己的机器人</text></view>
-        </view>
       </view>
-      <view class="f_r right_share">
-        <image src="../../images/skill/CombinedShape.png"></image>
-      </view>
+      <view class="right_share"><image src="../../images/CombinedShape.png"></image></view>
     </view>
+    
   </scroll-view>
   <!-- 自定义底部菜单 -->
   <view class="tabBar-view">

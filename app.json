@@ -9,7 +9,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "智能客服",
     "navigationBarTextStyle":"black",
-    "enablePullDownRefresh":false,
-    "navigationStyle": "custom"
+    "enablePullDownRefresh":false
   }
 }

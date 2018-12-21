@@ -3,10 +3,8 @@
 const app = getApp()
 Page({
   data: {
-    "background" : "/images/mipmap-hdpi/backgr.png",  //背景图片
-    "logo_robot" : "/images/mipmap-hdpi/logo-robot.png",
-    "body_height": app.globalData.body_height,
-    "nav_height": app.globalData.nav_height
+    "background": "/images/backgr.png",  //背景图片
+    "logo_robot": "/images/logo-robot.png",
   },
   onLoad: function () {
     var that = this;
@@ -14,5 +12,5 @@ Page({
     that.setData({
       'background': 'data:image/jpg;base64,' + base64
     });
-  },
+  }
 })

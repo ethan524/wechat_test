@@ -1,14 +1,14 @@
 <view class="tabBar">
   <view class="tabBar-item home">
-    <navigator open-type="redirect" url="{{ home_url }}">
-      <view><image src="../../images/mipmap-hdpi/icon-home-default.png" class="img_home"></image></view>
-      <view><text class="tabBar-text">主页</text></view>
+    <navigator open-type="navigate" url="{{ home_url }}">
+      <image src="../../images/icon-home-default-tarbar.png" class="img_home"></image>
+      <view class="tabBar-text">主页</view>
     </navigator>
   </view>
   <view class="tabBar-item skill">
-    <navigator open-type="redirect" url="{{ skill_url }}">
-      <view><image src="../../images/mipmap-hdpi/icon-skill-default.png" class="img_skill"></image></view>
-      <view><text class="tabBar-text">技能</text></view>
+    <navigator open-type="navigate" url="{{ skill_url }}">
+      <image src="../../images/icon-skill-default-tarbar.png" class="img_skill"></image>
+      <view class="tabBar-text">技能</view>
     </navigator>
   </view>
 </view>

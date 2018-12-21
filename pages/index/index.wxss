@@ -1,118 +1,70 @@
-/**index.wxss**/
-.container{
-  width : 100%;
-  box-sizing: border-box;
-  padding:0;
-  margin: 0;
-}
-.body_level{
-  width: 100%;
-  background: gray;
-}
 .logo_robot{
-  /* width: 122px;
-  height: 122px; */
-  width:244rpx;
-  height:244rpx;
-  margin: auto;
-  /* margin-top:90px; */
-  margin-top:180rpx;
-  padding: 0rpx;
+  width: 100%;
+  height:122px;
+  display: flex;
+  justify-content: center;
+  margin-top:90px;
 }
 .logo_robot image{
-  /* width: 122px;
-  height: 122px; */
-  width: 244rpx;
-  height: 244rpx;
+  width: 122px;
+  height: 122px;
 }
 .logo_text{
   text-align: center;
   color: white;
-  /* font-size:14px; */
-  font-size:28rpx;
+  font-size:14px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
 }
 .introduce{
-  /* width: 332px;
-  height: 110px;
-  margin:0px auto;
-  margin-bottom: 10px;
-  margin-top:70px; */
-
-  width: 664rpx;
-  height: 220rpx;
-  margin:0rpx auto;
-  margin-bottom: 20rpx;
-  margin-top:140rpx;
-
-
-}
-.items-view{
   width: 100%;
-  overflow: hidden;
-  /* margin-top:15px; */
-  margin-top:30rpx;
-  text-align: center;
-}
-.item-text{
-  float: left;
-  /* font-size:14px; */
-  font-size:28rpx;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  font-size:14px;
   color:#43979F;
+  margin-top:51px;
 }
-.first_text{
-  /* padding-left: 55px; */
-  padding-left: 110rpx;
+.middle_line{
+  margin:-1px 10px 0px;
 }
-.items-view .line{
-  color:#43979F;
-  /* font-size: 12px;
-  line-height: 18px;
-  margin:0px 8px; */
-  font-size: 24rpx;
-  line-height: 36rpx;
-  margin:0rpx 16rpx;
+.v_line{
+  width:332px;
+  border:1px solid;
+  border-image:linear-gradient(270deg, rgba(255,255,255,0), rgba(0,231,255,1), rgba(255,255,255,0)) 1 1;
 }
-.version-intro{
+.verison{
+  display: flex;
+  width: 100%;
+  height: 26px;
+  justify-content: center;
   color:#0FF7EF;
-  text-align: center;
-  /* font-size:14px;
-  margin-top:20px; */
-  font-size:28rpx;
-  margin-top:40rpx;
+  margin-top:9px;
 }
-.experience{
-  /* width:242px;
-  height: 47px; */
-  width:484rpx;
-  height: 94rpx;
-  margin: auto;
+.exercise_btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 47px;
+  margin-top:34px;
 }
-.experience image{
-  /* width:242px;
-  height: 47px; */
-  width:484rpx;
-  height: 94rpx;
+.exercise_btn image{
+  width:242px;
+  height: 47px;
 }
-.platform-intro{
-  /* width:336px;
-  height: 22px;
-  margin:26px auto 0px; */
-  width:672rpx;
-  height: 44rpx;
-  margin:52rpx auto 0rpx;
-}
-
-.platform{
-  /* height: 15px;
-  font-size: 14px; */
-  height: 30rpx;
-  font-size: 28rpx;
+.platform,.copyright{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size:11px;
   color:#5D5D5D;
-  text-align: center;
+  margin-top: 19px;
+  height:14px;
 }
 .copyright{
-  /* font-size:12px;
-  margin-top:5px; */
-  font-size:24rpx;
-  margin-top:10rpx;
+  height:10px;
+  margin-top: 5px;
+  font-size:10px;
+  line-height: 5px;
 }

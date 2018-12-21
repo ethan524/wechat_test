@@ -1,40 +1,22 @@
-<!-- index.wxml -->
 <view class='container'>
-  <!-- 自定义导航 -->
-  <view class="nevBar-view" style="height:{{nav_height}}" >
-    <navBar></navBar>
-  </view>
-  <!-- 主体内容 -->
-  <view class="body_level" style="height:{{body_height}};background:url({{background}})">
+  <view class="body_view" style="background:url({{background}}">
     <view class="logo_robot" >
       <image src='{{logo_robot}}'></image>
     </view>
-    <view class="logo_text">
-      <text class="">九天 - 智能对话</text>
-    </view>
+    <view class="logo_text">九天 - 智能对话</view>
     <view class="introduce">
-      <view class="items-view">
-        <view class="item-text text first_text"><text>快速定制</text></view>
-        <view class="item-text line"><text>|</text></view>
-        <view class="item-text text"><text>轻松赋能</text></view>
-        <view class="item-text line"><text>|</text></view>
-        <view class="item-text text"><text>机器人服务</text></view>
-      </view>
-      <view class="version-intro">
-        <text>V1.0</text>
-      </view>
+      <text>快速定制</text>
+      <text class="middle_line">|</text>
+      <text>轻松赋能</text>
+      <text class="middle_line">|</text>
+      <text>机器人服务</text>
     </view>
-    <view class="experience">
-      <image src="../../images/mipmap-hdpi/experience-button.png"></image>
-    </view>
-    <view class="platform-intro">
-      <view class="platform">
-        <view class="platform-text"><text>中国移动 | 九天 - 智能对话平台</text></view>
-        <view class="platform-text copyright"><text>copyright @ 2018-2020 ai.chinamobile.com</text></view>
-      </view>
-    </view>
+    <view class="v_line"></view>
+    <view class="verison">V1.0</view>
+    <view class="exercise_btn"><image src="../../images/experience-button.png"></image></view>
+    <view class="platform">中国移动 | 九天 - 智能对话平台</view>
+    <view class="copyright">copyright @ 2018-2020 ai.chinamobile.com</view>
   </view>
-  <!-- 自定义底部菜单 -->
   <view class="tabBar-view">
     <tabBar></tabBar>
   </view>

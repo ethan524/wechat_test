@@ -11,8 +11,8 @@ Component({
    * 组件的初始数据
    */
   data: {
-    "home_url" : "/pages/index/index",
-    "skill_url" : "/pages/skill/skill"
+    "home_url" : "/pages/index/index?title='智能对话机器人'",
+    "skill_url" : "/pages/skill/skill?title='技能'"
   },
 
   /**
