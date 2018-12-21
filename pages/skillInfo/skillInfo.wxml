@@ -1,0 +1,9 @@
+<view class="container">
+  <!-- 自定义导航 -->
+  <view class="nevBar-view">
+    <navBar></navBar>
+  </view>
+  <view class="body_level" style="height:{{body_height}};width:{{body_width}}">
+    sdf
+  </view>
+</view>
