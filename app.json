@@ -1,7 +1,9 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/skill/skill",
-    "pages/index/index"
+    "pages/skillInfo/skillInfo",
+    "pages/conversation/conversation"
     
   ],
   "window":{

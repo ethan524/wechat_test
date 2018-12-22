@@ -1,6 +1,6 @@
 .tabBar{
   width:100%;
-  height:49px;
+  height:98rpx;
   display: flex;
   flex-direction:row;
 }
@@ -12,15 +12,20 @@
   flex-direction:column;
   align-items:center;
 }
+.tarBar_icon{
+  display: flex;
+  align-items: center;
+  width: 54rpx;
+  height: 54rpx;
+  margin-top:8rpx;
+}
 .img_home,.img_skill{
-  width: 27px;
-  height: 27px;
-  margin-top:2px;
+  width: 54rpx;
+  height: 54rpx;
 }
 .tabBar-text{
-  font-size: 12px;
+  font-size: 24rpx;
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top:-6px;
 }
