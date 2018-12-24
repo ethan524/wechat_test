@@ -1,30 +1,31 @@
 <view class="container">
-   <!-- 自定义导航 -->
-  <view class="nevBar-view">
-    <navBar></navBar>
-  </view>
-  <view class="body_level" style="height:{{body_height}};width:{{body_width}}">
-    <scroll-view scroll-y class="conversation-view" style="height:{{conversation_height}};width:{{conversation_width}}">
-      <view class="top-title">样例机器人正在为您服务</view>
-      <view class="talk_lines robot_lines">
-        <!--机器人-->
-        <view class="robot_talk f_l">
-          <view class="robot_img f_l"><image src="../../images/skill/roboticon.png"></image></view>
-          <view class="robot_text f_r"><text>您好！我是九天智能对话机器人小移，很高兴遇到您！</text></view>
-        </view>
-        <!--用户-->
-        <view class="user_talk f_r">
-          <view class="user_text f_l"><text>你能提供什么服务呢</text></view>
-          <view class="user_img f_r"><image src="../../images/skill/userdefault.png"></image></view>
-        </view>
+    <scroll-view scroll-y class="body_view conversation_view" style="height:{{conversation_height}}">
+      <view class="top_title"><view class="top-title-text">样例机器人正在为您服务</view></view>
+
+      <!--对话部分开始-->
+      <view class="lines">
+        <view class="robot_img"><image src="../../images/robot_portrait.png"></image></view>
+        <view class="robot_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服</view>
       </view>
+      
+      <view class="lines user_lines">
+        <view class="user_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务</view>
+        <view class="user_img"><image src="../../images/user_portrait.png"></image></view>
+      </view>
+
+      <view class="lines">
+        <view class="robot_img"><image src="../../images/robot_portrait.png"></image></view>
+        <view class="robot_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务</view>
+      </view>
+      
+      <view class="lines user_lines">
+        <view class="user_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务</view>
+        <view class="user_img"><image src="../../images/user_portrait.png"></image></view>
+      </view>
+      <!--对话部分结束-->
+
     </scroll-view>
-    <view class="input_view">
-      <view class="imoji f_l"></view>
-      <view class="input_box f_r">
-        <input placeholder="" type="text" cursor-spacing="140"  />
-      </view>
-    </view>
+  <view class="tabBar-view">
+    <conversationTabBar></conversationTabBar>
   </view>
- 
 </view>

@@ -1,10 +1,9 @@
 {
   "pages":[
+    "pages/conversation/conversation",
     "pages/index/index",
     "pages/skill/skill",
-    "pages/skillInfo/skillInfo",
-    "pages/conversation/conversation"
-    
+    "pages/skillInfo/skillInfo"
   ],
   "window":{
     "backgroundTextStyle":"dark",
