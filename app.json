@@ -1,14 +1,14 @@
 {
   "pages":[
-    "pages/conversation/conversation",
     "pages/index/index",
+    "pages/skillInfo/skillInfo",
     "pages/skill/skill",
-    "pages/skillInfo/skillInfo"
+    "pages/conversation/conversation"
   ],
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "智能客服",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle":"black",
     "enablePullDownRefresh":false
   }

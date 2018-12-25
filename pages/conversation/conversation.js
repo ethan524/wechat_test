@@ -13,6 +13,9 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
+    wx.setNavigationBarTitle({
+      title: "智能对话"
+    })
   },
 
   

@@ -8,7 +8,12 @@ Page({
   },
   onLoad: function () {
     var that = this;
-    let base64 = wx.getFileSystemManager().readFileSync(this.data.background, 'base64');
+    wx.setNavigationBarTitle({
+      title: "智能对话机器人"
+    })
+
+
+    var base64 = wx.getFileSystemManager().readFileSync(this.data.background, 'base64');
     that.setData({
       'background': 'data:image/jpg;base64,' + base64
     });

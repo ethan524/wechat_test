@@ -1,3 +1,10 @@
 <view class="conversationTabBar">
-
+  <view class="upDownImg"><image src="{{image}}" bindtap='upEdit' style='top:{{}}'></image></view>
+  <!-- <view class="conversation"></view> -->
+  <view class="edit_view">
+    <view class="emoji"><image src="../../images/emoji.png"></image></view>
+    <view class="input_view">
+      <input placeholder="" type="text" class="user_ipt" cursor-spacing ='10' />
+    </view>
+  </view>
 </view>

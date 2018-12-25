@@ -1,7 +1,74 @@
-.container{
-  width : 100%;
-  box-sizing: border-box;
-  padding:0;
-  margin: 0;
-  clear: both;
+.top_bg_title{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height:288rpx;
+  justify-content: center;
+  align-items: center;
+}
+.yidong{
+  height: 128rpx;
+  width: 128rpx;
+}
+.info_name{
+  color:#676767;
+  font-size:28rpx;
+  font-weight: bolder;
+  margin-top:18rpx;
+}
+.skill_info_title{
+  width: 100%;
+  height:52rpx;
+  margin-top:28rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.info_title_text{
+  font-size:32rpx;
+  color:#606060;
+  font-weight: bolder;
+  margin-left: 14rpx;
+}
+.info_text{
+  width:666rpx;
+}
+.skill_info_text{
+  color:#727272;
+  font-size:28rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:84rpx;
+  width: 100%;
+  margin-top:24rpx;
+}
+.skill_demo{
+  display: flex;
+  flex-direction: column;
+  height: 460rpx;
+}
+.info_view{
+  align-content: center;
+  width: 666rpx;
+  min-height:48rpx;
+  display: flex;
+}
+.text_name{
+  width:100rpx;
+  height:auto;
+  margin-left: 48rpx;
+}
+.text_content{
+  width: 560rpx;
+  height: auto;
+  word-break: break-all;
+}
+
+.arror{
+  width: 34rpx;
+  height:28rpx;
+  margin-top:-6rpx;
+  margin-left: 48rpx;
 }

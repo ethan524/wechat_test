@@ -15,7 +15,7 @@
     <view class="skill_new">最新技能</view>
     <view class="skill_skills">
       <view class="skills">
-        <view class="skill_tag">
+        <view class="skill_tag" bindtap="jumpToInfo" data-params="communication">
           <view class="left_logo "><image src="../../images/Group41.png"></image></view>
           <view class="right_intro">
               <view class="r_title">移动业务查询</view>
@@ -23,7 +23,7 @@
               <view class="r_title_intro">等移动业务查询</view>
           </view>
         </view>
-        <view class="skill_tag">
+        <view class="skill_tag" bindtap="jumpToInfo" data-params="joke">
           <view class="left_logo   "><image src="../../images/Group42.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">寒暄笑话</view>
@@ -31,15 +31,15 @@
               <view class="r_title_intro">陪伴您闲暇时光</view>
             </view>
         </view>
-        <view class="skill_tag">
-          <view class="left_logo   "><image src="../../images/Group43.png"></image></view>
+        <view class="skill_tag" bindtap="jumpToInfo" data-params="weather">
+          <view class="left_logo "><image src="../../images/Group43.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">天气查询</view>
               <view class="r_title_intro">能帮您实时查询</view>
               <view class="r_title_intro">为了天气情况</view>
             </view>
         </view>
-        <view class="skill_tag">
+        <view class="skill_tag" bindtap="jumpToInfo" data-params="knowledge">
           <view class="left_logo   "><image src="../../images/Group45.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">知识百科</view>
@@ -47,7 +47,7 @@
               <view class="r_title_intro">帮您一下全掌握</view>
             </view>
         </view>
-        <view class="skill_tag no_bottom">
+        <view class="skill_tag no_bottom" bindtap="jumpToInfo" data-params="translate">
           <view class="left_logo   "><image src="../../images/Group46.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">实时翻译</view>
@@ -55,7 +55,7 @@
               <view class="r_title_intro">可精准快速翻译</view>
             </view>
         </view>
-        <view class="skill_tag no_bottom">
+        <view class="skill_tag no_bottom" bindtap="jumpToInfo" data-params="hotel">
           <view class="left_logo   "><image src="../../images/Group44.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">酒店预订</view>

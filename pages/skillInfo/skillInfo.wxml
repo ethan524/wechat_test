@@ -1,9 +1,30 @@
 <view class="container">
-  <!-- 自定义导航 -->
-  <view class="nevBar-view">
-    <navBar></navBar>
+  <view class="body_view" >
+    <view class='top_bg_title' style="background:url({{bg_img}})">
+      <image src="{{skillImg[skill_params]}}" class="yidong"></image>
+      <view class="info_name">{{skill_name[skill_params]}}</view>
+    </view>
+    <view class="skill_info_title">
+      <image src="../../images/11.png" class="arror"></image>
+      <text class="info_title_text">技能说明</text>
+    </view>
+    <view class="skill_info_text">
+      <view class="info_text">{{skillDesc[skill_params]}}</view>
+    </view>
+    <view class="skill_info_title">
+      <image src="../../images/11.png" class="arror"></image>
+      <text class="info_title_text">技能实例</text>
+    </view>
+    <scroll-view scroll-y class="skill_info_text skill_demo">
+      <block wx:for="{{skillText[skill_params]}}" wx:key="key">
+        <view class="info_view">
+          <view class="text_name">{{item[0]}}</view>
+          <view class="text_content">{{item[1]}}</view>
+        </view>
+      </block>
+    </scroll-view>
   </view>
-  <view class="body_level" style="height:{{body_height}};width:{{body_width}}">
-    sdf
+  <view class="tabBar-view">
+    <conversationTabBar></conversationTabBar>
   </view>
 </view>

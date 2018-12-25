@@ -13,5 +13,15 @@ Page({
 
   onLoad: function () {
     var that = this;
+    wx.setNavigationBarTitle({
+      title: "技能"
+    })
   },
+
+  jumpToInfo : function(event){
+    var params = event.currentTarget.dataset.params;
+    wx.navigateTo({
+      url: '/pages/skillInfo/skillInfo?params=' + params,
+    })
+  }
 })

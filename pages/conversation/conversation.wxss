@@ -24,7 +24,7 @@
   position:fixed; bottom:0;
 }
 .conversation_view{
-  margin-bottom: 30rpx;
+  /* margin-bottom: 30rpx; */
 }
 .lines{
   display: flex;
