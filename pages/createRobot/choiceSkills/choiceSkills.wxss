@@ -1,0 +1,154 @@
+/* pages/createRobot/choiceSkills/choiceSkills.wxss */
+.choice_text_view{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:48rpx;
+  margin-top:34rpx;
+  margin-bottom: 20rpx;
+}
+.choice_text_title{
+  color:#000000;
+  font-size:34rpx;
+  font-weight: bolder;
+  text-indent: 30rpx;
+}
+.choice_text_tips{
+  display: flex;
+  align-items: center;
+}
+.choice_text_tips_text{
+  color:#888888;
+  font-size:28rpx;
+  margin-right:24rpx;
+}
+.create_about{
+  display: flex;
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 30rpx;
+}
+.lines{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tags{
+  display: flex;
+  flex-direction: column;
+  width:348rpx;
+}
+.pad{
+  width:348rpx;
+  height:172rpx;
+  border:2rpx solid #E4E4E4;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+.pad_img_view{
+  width: 140rpx;
+  height:172rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pad .pad_logo{
+  height: 74rpx;
+  width: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pad_intro_view{
+  width: 248rpx;
+  height:172rpx;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pad_intro_title{
+  color:#606060;
+  font-size:28rpx;
+  margin-top: 20rpx;
+  display: flex;
+  width: 170rpx;
+}
+.pad_intro_text{
+  color:#0285CF;
+  font-size:24rpx;
+  display: flex;
+  align-items: center;
+  width: 170rpx;
+}
+
+.fl{
+  margin-left:22rpx;
+}
+.fr{
+  margin-right:22rpx;
+}
+.choice_pad{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top:24rpx;
+  margin-bottom: 24rpx;
+}
+.choice_pad checkbox .wx-checkbox-input{
+  border-radius: 40rpx;
+  background: white;
+}
+.choice_pad checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #007CFF;
+  color:white;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+.next_view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next_btn{
+  display: flex;
+  width: 670rpx;
+  height:94rpx;
+  background: #007CFF;
+  color:#FFFFFF;
+  justify-content: center;
+  align-items: center;
+  font-size:36rpx;
+  border-radius: 48rpx;
+}
+.skill_desc_view{
+  display: flex;
+  min-height: 120rpx;
+  width: 100%;
+  margin-top:26rpx;
+  flex-direction: row;
+}
+.skill_desc_view image{
+  margin-left: 30rpx;
+  width: 62rpx;
+  height:32rpx;
+}
+.skill_desc{
+  color:#888888;
+  font-size:28rpx;
+  margin-right: 30rpx;
+}

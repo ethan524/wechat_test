@@ -1,0 +1,96 @@
+<view class="container">
+  <view class="body_view">
+    <view class="choice_text_view">
+      <view class="choice_text_title">选择添加技能</view>
+      <view class="choice_text_tips">
+        <text class="choice_text_tips_text">为机器人选择技能</text>
+        <image src="../../../images/create_about.png" class="create_about"></image>
+      </view>
+    </view>
+    <view class="lines">
+      <view class="tags fl">
+        <view class="pad">
+          <view class='pad_img_view'><image src="../../../images/Group41.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">移动业务查询</view>
+            <view class="pad_intro_text">套餐/话费/流量 等移动业务查询</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+      <view class="tags fr">
+        <view class="pad ">
+          <view class='pad_img_view'><image src="../../../images/Group42.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">寒暄笑话</view>
+            <view class="pad_intro_text">闲聊/寒暄/笑话 陪伴您闲暇时光</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+    </view>
+    <view class="lines">
+      <view class="tags fl">
+        <view class="pad">
+          <view class='pad_img_view'><image src="../../../images/Group43.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">天气查询</view>
+            <view class="pad_intro_text">能帮您实时查询 未来天气情况</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+      <view class="tags fr">
+        <view class="pad ">
+          <view class='pad_img_view'><image src="../../../images/Group45.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">知识百科</view>
+            <view class="pad_intro_text">最全的百科知识 帮您一下全掌握</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+    </view>
+    <view class="lines">
+      <view class="tags fl">
+        <view class="pad">
+          <view class='pad_img_view'><image src="../../../images/Group46.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">实时翻译</view>
+            <view class="pad_intro_text">具实时翻译功能 可精准快速翻译</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+      <view class="tags fr">
+        <view class="pad ">
+          <view class='pad_img_view'><image src="../../../images/Group44.png" class="pad_logo"></image></view>
+          <view class="pad_intro_view">
+            <view class="pad_intro_title">酒店预订</view>
+            <view class="pad_intro_text">机器人帮您轻松 预定待入住酒店</view>
+          </view>
+        </view>
+        <view class="choice_pad fl">
+          <checkbox value="" checked="" />
+        </view>
+      </view>
+    </view>
+    <view class="next_view">
+      <button class="next_btn">下一步</button>
+    </view>
+    <view class="skill_desc_view">
+      <image src="../../../images/create_about.png" class="create_about"></image>
+      <view class="skill_desc">如以上技能不满足您的要求，请登录中国移动智能客服平台体验完整版服务，进行机器人技能深度自定义</view>
+    </view>
+  </view>
+</view>

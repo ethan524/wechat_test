@@ -1,0 +1,18 @@
+<view class='container'>
+  <view class="body_view">
+    <form>
+      <view class="ipt_title">请输入机器人名称</view>
+      <view class='ipt_lines '>
+        <view class="ipt_names">机器人名</view>
+        <input placeholder="如宁玛之家机器人" type="text" class="ipt_input" maxlength="20" minlength="6" />
+        <image src="../../../images/create_about.png" class="create_about"></image>
+      </view>
+      <view class="next_view">
+        <button class="next_btn">下一步</button>
+      </view>
+    </form>
+    <view class="footer_text">
+      <text>本服务由中国移动提供底层技术支持</text>
+    </view>
+  </view>
+</view>

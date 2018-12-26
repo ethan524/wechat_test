@@ -1,0 +1,67 @@
+.ipt_title{
+  display: flex;
+  color:#888888;
+  font-size:28rpx;
+  margin-top:32rpx;
+  margin-bottom:16rpx;
+  text-indent: 30rpx;
+}
+.ipt_lines{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:88rpx;
+  background: #FFFFFF;
+  text-indent: 30rpx;
+  align-items: center;
+  margin-bottom: 100rpx;
+}
+.ipt_names{
+  color:#000000;
+  font-size:34rpx;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 88rpx;
+  align-items: center;
+}
+.ipt_input{
+  display: flex;
+  margin-left: 44rpx;
+  width: 65%;
+  text-indent: 0rpx;
+  color:#000000;
+  font-size:32rpx;
+}
+.create_about{
+  width: 32rpx;
+  height: 32rpx;
+}
+.next_view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next_btn{
+  display: flex;
+  width: 670rpx;
+  height:94rpx;
+  background: #66B1FF;
+  color:#FFFFFF;
+  justify-content: center;
+  align-items: center;
+  font-size:36rpx;
+  border-radius: 48rpx;
+  margin-top:40rpx;
+}
+.footer_text{
+  width: 100%;
+  height: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#B2B2B2;
+  font-size:20rpx;
+  position: absolute;
+  bottom:30rpx;
+}
