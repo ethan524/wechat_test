@@ -13,11 +13,11 @@
     </view>
     <view class="v_line"></view>
     <view class="verison">V1.0</view>
-    <view class="exercise_btn"><image src="../../images/experience-button.png"></image></view>
+    <view class="exercise_btn"><navigator open-type='navigate' url="/pages/createRobot/createRobot"><image src="../../images/experience-button.png"></image></navigator></view>
     <view class="platform">中国移动 | 九天 - 智能对话平台</view>
     <view class="copyright">copyright @ 2018-2020 ai.chinamobile.com</view>
   </view>
-  <view class="tabBar-view">
-    <tabBar></tabBar>
+  <view class="myModal">
+    <myModal></myModal>
   </view>
 </view>

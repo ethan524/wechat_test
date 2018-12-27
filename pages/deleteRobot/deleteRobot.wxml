@@ -1,0 +1,23 @@
+<view class='container page'>
+  <view class="body_view">
+    <view class="image_view">
+      <image src="../../images/alert.png" ></image>
+    </view>
+    <view class="online_text">请确认是否删除</view>
+    <view class="online_desc online_desc_false" >
+      <text>删除后设置无法恢复</text>
+      <text>请谨慎操作</text>
+    </view>
+    <view class="btn">
+      <button class="confrim" bindtap='toggleModal'>确定</button>
+      <button class="back">返回</button>
+    </view>
+    <view class="footer">
+      <view class="platform_text">中国移动 丨 九天 · 智能对话平台</view>
+      <view class="copyright">Copyright &#169 2018-2020 ai.chinamobile.com</view>
+    </view>
+  </view>
+  <view class="myModal" >
+    <myModal id="myModal"></myModal>
+  </view>
+</view>

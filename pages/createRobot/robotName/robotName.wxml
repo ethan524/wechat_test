@@ -8,7 +8,7 @@
         <image src="../../../images/create_about.png" class="create_about"></image>
       </view>
       <view class="next_view">
-        <button class="next_btn">下一步</button>
+        <button class="next_btn" bindtap='nextstep'>下一步</button>
       </view>
     </form>
     <view class="footer_text">

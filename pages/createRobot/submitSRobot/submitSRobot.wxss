@@ -1,29 +1,15 @@
-.top_title{
-  width: 100%;
-  height:90rpx;
+.title{
+  background: #ECECEC;
+  color:#A8B0B4;
+  font-size:22rpx;
   display: flex;
+  margin: 32rpx auto 26rpx;
+  width:428rpx;
+  height:38rpx;
+  border-radius: 18rpx;
   justify-content: center;
   align-items: center;
-  font-size:22rpx;
-  color:#ECECEC;
 }
-.top-title-text{
-  display: flex;
-  justify-content: center;
-  width:372rpx;
-  height:34rpx;
-  background: #A8B0B4;
-  border-radius:18rpx;
-}
-.conversation_input{
-  width: 100%;
-  display: flex;
-  justify-content:flex-end;
-  height:90rpx;
-  background: gray;
-  position:fixed; bottom:0;
-}
-
 .lines{
   display: flex;
   width: 100%;
@@ -91,3 +77,4 @@
   border-bottom: 12rpx solid transparent;
   border-left: 12rpx solid #367CFF;
 }
+

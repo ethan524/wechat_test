@@ -1,0 +1,16 @@
+<view class='container page'>
+  <scroll-view scroll-y class="body_view">
+    <view class="title">可通过对话测试您定义的机器人能力</view>
+    <view class="lines">
+      <view class="robot_img"><image src="../../../images/robot_portrait.png"></image></view>
+      <view class="robot_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服</view>
+    </view>
+    <view class="lines user_lines">
+        <view class="user_words">样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务样例机器人正在为您服务</view>
+        <view class="user_img"><image src="../../../images/user_portrait.png"></image></view>
+      </view>
+  </scroll-view>
+  <view class="robotTabBar-view">
+    <robotTabBar></robotTabBar>
+  </view>
+</view>

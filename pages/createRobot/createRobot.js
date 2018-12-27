@@ -32,6 +32,11 @@ Page({
     //   });
     // }
 
+  },
+  nextstep : function(){
+    wx.navigateTo({
+      url: '/pages/createRobot/robotName/robotName',
+    })
   }
 
 })

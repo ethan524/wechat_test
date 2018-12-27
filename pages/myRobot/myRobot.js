@@ -1,11 +1,11 @@
-// pages/createRobot/createRobot/robotName.js
+// pages/myRobot/myRobot.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    "status" : 2
   },
 
   /**
@@ -13,17 +13,13 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: "新建机器人"
+      title: "智能对话机器人"
     })
   },
-  nextstep : function(){
+  deleteRobot : function(){
     wx.navigateTo({
-      url: '/pages/createRobot/choiceSkills/choiceSkills',
+      url: '/pages/deleteRobot/deleteRobot',
     })
   }
-  
-
-  
-
-  
+ 
 })

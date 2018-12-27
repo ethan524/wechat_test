@@ -1,11 +1,11 @@
-// pages/createRobot/createRobot/robotName.js
+// pages/createRobot/onlineResult/onlineResult.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    "flag" : true
   },
 
   /**
@@ -18,12 +18,8 @@ Page({
   },
   nextstep : function(){
     wx.navigateTo({
-      url: '/pages/createRobot/choiceSkills/choiceSkills',
+      url: '/pages/myRobot/myRobot',
     })
   }
-  
-
-  
-
   
 })

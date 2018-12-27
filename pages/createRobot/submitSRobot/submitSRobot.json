@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "robotTabBar": "../../../components/robotTabBar/robotTabBar"
+  }
+}

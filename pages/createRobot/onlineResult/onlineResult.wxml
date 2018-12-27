@@ -1,0 +1,34 @@
+<view class='container page'>
+  <view class="body_view">
+    <block wx:if="{{flag}}">
+      <view class="image_view">
+        <image src="../../../images/online_yes.png" ></image>
+      </view>
+      <view class="online_text">上线成功</view>
+      <view class="online_desc">
+        <view>您的机器人已成功上线 可到您的公众号中体验</view>
+      </view>
+      <view class="btn">
+        <button class="confrim" bindtap='nextstep'>确定</button>
+      </view>
+    </block>
+    <block wx:elif="{{!flag}}">
+      <view class="image_view">
+        <image src="../../../images/alert.png" ></image>
+      </view>
+      <view class="online_text">提交失败</view>
+      <view class="online_desc online_desc_false" >
+        <text>机器人尚未上线成功</text>
+        <text>请稍后再试</text>
+      </view>
+      <view class="btn">
+        <button class="confrim" bindtap='nextstep'>确定</button>
+        <button class="back">返回</button>
+      </view>
+    </block>
+    <view class="footer">
+      <view class="platform_text">中国移动 丨 九天 · 智能对话平台</view>
+      <view class="copyright">Copyright &#169 2018-2020 ai.chinamobile.com</view>
+    </view>
+  </view>
+</view>

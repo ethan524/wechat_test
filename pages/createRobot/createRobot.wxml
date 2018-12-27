@@ -27,7 +27,7 @@
         <view class="checkbox_text">已阅读并同意《相关条例》</view>
       </view>
       <view class="next_view">
-        <button class="next_btn">下一步</button>
+        <button class="next_btn" bindtap='nextstep'>下一步</button>
       </view>
       <view class="footer_text">本服务由中国移动提供底层技术支持</view>
     </form>

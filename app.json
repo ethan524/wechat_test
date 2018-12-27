@@ -1,12 +1,17 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/skillInfo/skillInfo",
     "pages/skill/skill",
+    "pages/skillInfo/skillInfo",
     "pages/conversation/conversation",
+    "pages/createRobot/createRobot",
     "pages/createRobot/choiceSkills/choiceSkills",
     "pages/createRobot/robotName/robotName",
-    "pages/createRobot/createRobot"
+    "pages/createRobot/submitSRobot/submitSRobot",
+    "pages/createRobot/robotPreview/robotPreview",
+    "pages/createRobot/onlineResult/onlineResult",
+    "pages/myRobot/myRobot",
+    "pages/deleteRobot/deleteRobot"
   ],
   "window":{
     "backgroundTextStyle":"dark",

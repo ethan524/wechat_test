@@ -1,0 +1,110 @@
+.body_view{
+  background: #E6F6FF;
+}
+.logo_robot{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  align-items: center;
+}
+.logo_robot image{
+  width:750rpx;
+  height:726rpx;
+}
+.my_robot_view{
+  width:100%;
+  height:394rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-160rpx;
+}
+.options_view{
+  display: flex;
+  width:674rpx;
+  height:394rpx;
+  background: #FFFFFF;
+  border:2rpx solid #D0D0D0;
+  border-radius: 20rpx;
+  flex-direction: column;
+}
+.work_view{
+  display: flex;
+  width:100%;
+  height:290rpx;
+  border-bottom: 2rpx solid #C1C1C1;
+}
+.my_robot_img{
+  width:130rpx;
+  height:130rpx;
+  display: flex;
+  margin:68rpx 47rpx 48rpx 64rpx;
+}
+.work_view_options{
+  display: flex;
+  width:370rpx;
+  height:130rpx;
+  margin:68rpx 0rpx 48rpx 0rpx;
+  flex-direction: column;
+}
+.options_title{
+  color:#5D5D5D;
+  font-size:32rpx;
+  font-weight: bolder;
+}
+.options_status{
+  display: flex;
+  align-items: center;
+}
+.status_img{
+  width:28rpx;
+  height:28rpx;
+  margin-right: 16rpx;
+}
+.work_color{
+  font-size:28rpx;
+}
+.time_text{
+  color:#818181;
+  font-size:28rpx;
+}
+.operation_view{
+  display: flex;
+  width: 100%;
+  height:104rpx;
+}
+.operation_delete{
+  display: flex;
+  width: 260rpx;
+  height:100%;
+  border-right:2rpx solid #C1C1C1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.operation_img{
+  width: 42rpx;
+  height:42rpx;
+  display: flex;
+}
+.btn_text{
+  
+  font-size:36rpx;
+  height:50rpx;
+  width:108rpx;
+  text-indent: 20rpx;
+}
+.operation_set{
+  display: flex;
+  height:100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:414rpx;
+}
+.set_color{
+  color:#5D5D5D;
+}
+.delete_color{
+  color:#FF5454;
+}

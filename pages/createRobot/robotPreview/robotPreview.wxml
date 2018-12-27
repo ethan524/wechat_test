@@ -1,0 +1,54 @@
+<view class='container page'>
+  <view class="body_view">
+    <view class="preview_title">机器人预览</view>
+    <view class="preview_infos">
+      <view class="preview_names">
+        <text class="left_title">机器人名</text>
+        <text class="right_info robot_name">移动服务之家</text>
+      </view>
+      <view class='preview_otherinfos'>
+        <view class="title_text">链接地址</view>
+        <view class="title_desc">移动服务之家</view>
+      </view>
+      <view class='preview_otherinfos'>
+        <view class="title_text">公众号名</view>
+        <view class="title_desc">
+          http://robo.chinamobile.com/webmail/se/ew/m.do?d=agveQtgSU2IRA0txip1s9THfEO1p1SX000004&r=715bda000004&r=715bda
+        </view>
+      </view>
+      <view class='preview_otherinfos'>
+        <view class="title_text">拥有技能</view>
+        <view class="skills">
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>笑话寒暄</text>
+          </view>
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>移动业务查询</text>
+          </view>
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>天气查询</text>
+          </view>
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>知识百科</text>
+          </view>
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>实时翻译</text>
+          </view>
+          <view class="skill_check">
+            <checkbox value="" checked="checked" />
+            <text>酒店预订</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="preview_btns">
+      <button class="confirm" bindtap='nextstep'>确认上线</button>
+      <button class="pre">上一步</button>
+    </view>
+  </view>
+</view>

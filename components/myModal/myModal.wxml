@@ -1,0 +1,16 @@
+<view class='myModal' wx:if="{{show}}">
+  <block wx:if="{{flag =='delete_yes'}}">
+  <view class="content_view">
+    <view class="title">删除成功</view>
+    <view class="content_text">您的机器人已删除，如有需要请新建</view>
+    <view class="btn" bindtap='confirm'>确定</view>
+  </view>
+  </block>
+  <block wx:if="{{flag =='delete_no'}}">
+  <view class="content_view">
+    <view class="title">删除失败</view>
+    <view class="content_text">请稍后重试</view>
+    <view class="btn" bindtap='confirm'>确定</view>
+  </view>
+  </block>
+</view>

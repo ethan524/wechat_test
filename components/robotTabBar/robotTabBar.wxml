@@ -1,0 +1,12 @@
+<view class="robotTabBar">
+  <view class="edit_view">
+    <view class="emoji"><image src="../../images/emoji.png"></image></view>
+    <view class="input_view">
+      <input placeholder="" type="text" class="user_ipt" cursor-spacing ='10' />
+    </view>
+  </view>
+  <view class="btn_view">
+    <button class="update">修改</button>
+    <button class="submit" bindtap='nextstep'>满意</button>
+  </view>
+</view>

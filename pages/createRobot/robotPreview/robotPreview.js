@@ -1,4 +1,4 @@
-// pages/createRobot/createRobot/robotName.js
+// pages/createRobot/robotPreview/robotPreview.js
 Page({
 
   /**
@@ -18,12 +18,8 @@ Page({
   },
   nextstep : function(){
     wx.navigateTo({
-      url: '/pages/createRobot/choiceSkills/choiceSkills',
+      url: '/pages/createRobot/onlineResult/onlineResult',
     })
   }
-  
-
-  
-
   
 })

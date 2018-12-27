@@ -1,0 +1,50 @@
+<view class='container'>
+  <view class="body_view">
+    <view class="logo_robot"><image src="../../images/logo-robot_blue.png"></image></view>
+    <view class="my_robot_view">
+      <view class="options_view">
+        <view class="work_view">
+          <image src="../../images/my_robot.png" class="my_robot_img"></image>
+          <view class="work_view_options">
+            <view class="options_title">我的客服机器人</view>
+            <block wx:if="{{status == '1'}}">
+            <view class="options_status">
+              <image src="../../images/work_status.png" class="status_img"></image>
+              <text class="work_color" style="color:#5CD86D;">启用</text>
+            </view>
+            </block>
+            <block wx:if="{{status == '2'}}">
+            <view class="options_status">
+              <image src="../../images/stop_status.png" class="status_img"></image>
+              <text class="work_color" style="color:#FF5454;">停用</text>
+            </view>
+            </block>
+            <block wx:if="{{status == '3'}}">
+            <view class="options_status">
+              <image src="../../images/draft_status.png" class="status_img"></image>
+              <text class="work_color" style="color:#FF9F3D;">草稿</text>
+            </view>
+            </block>
+            <view class="options_status">
+              <image src="../../images/time.png" class="status_img"></image>
+              <text class="time_text">上传 2018.11.27 12:23</text>
+            </view>
+          </view>
+        </view>
+        <view class="operation_view">
+          <view class="operation_delete" bindtap='deleteRobot'>
+            <image src="../../images/delete_icon.png" class="operation_img"></image>
+            <view class="btn_text delete_color">删除</view>
+          </view>
+          <view class="operation_set">
+            <image src="../../images/options_icon.png" class="operation_img"></image>
+            <view class="btn_text set_color">删除</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="tabBar-view">
+    <tabBar></tabBar>
+  </view>
+</view>
