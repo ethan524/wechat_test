@@ -1,0 +1,16 @@
+<view class='container'>
+  <block wx:if="{{canUse}}">
+  <view class="body_view">
+    <view class="logo_view"><image src="../../images/logo-robot.png"></image></view>
+    <view class='line'></view>
+    <view class="title">申请获取以下权限</view>
+    <view class="auth_list">获得您的公开信息(昵称、头像等)</view>
+    <view class="btn_view"><button open-type='getUserInfo' lang="zh_CN" bindgetuserinfo='bindgetuserinfo' >授权登录</button></view>
+  </view>
+  </block>
+  <block wx:else>
+  <view class="body_view">
+    <view class="wxUpdate">请升级您的微信版本</view>
+  </view>
+  </block>
+</view>

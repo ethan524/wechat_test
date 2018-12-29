@@ -4,37 +4,47 @@ App({
   },
   onLaunch: function () {
     var that = this;
-    // userLogin();
-  }
-})
-
-// 用户登录
-function userLogin(){
-  wx.login({
-    success: function (res) {
-      wx.getUserInfo({
-        success(res) {
-          console.log(res);
-        },
-        // 获取用户信息失败，前往授权页面
-        fail(res) {
+    this.checkPermissionStatus()
+  },
+  checkPermissionStatus: function () {
+    wx.getSetting({
+      success: function (res) {
+        if (!res.authSetting['scope.userInfo']) {
           wx.showModal({
             title: '提示',
-            content: '用户尚未授权',
+            content: "尊敬的用户,为确保之后的操作顺畅无误,小程序需要您的授权",
             success: function (res) {
+              // 用户点击授权
               if (res.confirm) {
-                console.log("user confirm");
+                wx.navigateTo({
+                  url: '/pages/login/login',
+                })
               } else {
-                console.log("user cancle");
+                // 用户点击取消
+                wx.showModal({
+                  title: '提示',
+                  content: '尊敬的用户，如需正常使用“智能对话机器人”小程序，请按确定并在授权管理中选择用户信息',
+                  showCancel: false,
+                  success : function(res){
+                    if(res.confirm){
+                      wx.openSetting({
+                        scope: "scope.userInfo",
+                        success : function(res){
+                          console.log('openSetting success', res.authSetting);
+                          res.authSetting = {
+                            "scope.userInfo" : true
+                          }
+                        }
+                      })
+                    }
+                  }
+                })
               }
             }
           })
         }
-      })
-    },
-    // 登陆失败
-    error: function (res) {
-      console.log('error');
-    }
-  })
-}
+      }
+    })
+  }
+})
+

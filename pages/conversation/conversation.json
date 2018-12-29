@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "conversationTabBar": "/components/conversationTabBar/conversationTabBar"
-  }
+  },
+  "navigationBarTitleText": "智能对话"
 }

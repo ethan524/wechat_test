@@ -1,7 +1,6 @@
 <view class="container">
     <scroll-view scroll-y class="body_view conversation_view" style="height:{{conversation_height}}">
       <view class="top_title"><view class="top-title-text">样例机器人正在为您服务</view></view>
-
       <!--对话部分开始-->
       <view class="lines">
         <view class="robot_img"><image src="../../images/robot_portrait.png"></image></view>

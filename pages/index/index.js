@@ -8,14 +8,26 @@ Page({
   },
   onLoad: function () {
     var that = this;
-    wx.setNavigationBarTitle({
-      title: "智能对话机器人"
-    })
-
-
     var base64 = wx.getFileSystemManager().readFileSync(this.data.background, 'base64');
     that.setData({
       'background': 'data:image/jpg;base64,' + base64
     });
+
+  },
+  exercise_now : function(){
+    // 查看用户已经获取的权限
+    wx.getSetting({
+      success : function(res){
+        if(res.authSetting['scope.userInfo']){
+          wx.navigateTo({
+            url: '/pages/skill/skill',
+          })
+        }else{
+          wx.navigateTo({
+            url: '/pages/login/login',
+          })
+        }
+      }
+    })
   }
 })

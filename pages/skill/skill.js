@@ -23,5 +23,9 @@ Page({
     wx.navigateTo({
       url: '/pages/skillInfo/skillInfo?params=' + params,
     })
+  },
+  jumpToConversation : function(res){
+    console.log(res)
+    
   }
 })
