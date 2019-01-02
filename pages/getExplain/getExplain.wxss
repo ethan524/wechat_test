@@ -1,0 +1,11 @@
+/* pages/getExplain/getExplain.wxss */
+.title{
+  width:100%;
+  height:auto;
+  color:black;
+  font-weight: bolder;
+  font-size:40rpx;
+  text-indent: 30rpx;
+  margin-top:30rpx;
+  margin-bottom:30rpx;
+}

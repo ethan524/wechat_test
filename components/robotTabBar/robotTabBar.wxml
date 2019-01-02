@@ -6,7 +6,7 @@
     </view>
   </view>
   <view class="btn_view">
-    <button class="update">修改</button>
+    <button class="update" bindtap='backstep'>修改</button>
     <button class="submit" bindtap='nextstep'>满意</button>
   </view>
 </view>

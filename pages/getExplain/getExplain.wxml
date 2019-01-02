@@ -1,0 +1,5 @@
+<view class='container'>
+  <view class="body_view" >
+    <view class="title">获取说明</view>
+  </view>
+</view>

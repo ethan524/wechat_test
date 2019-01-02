@@ -17,7 +17,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="communication" bindchange="checkboxChange"><checkbox value="communication" checked="" /></checkbox-group>
         </view>
       </view>
       <view class="tags fr">
@@ -29,7 +29,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="joke" bindchange="checkboxChange"><checkbox value="joke" checked="" /></checkbox-group>
         </view>
       </view>
     </view>
@@ -43,7 +43,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="weather" bindchange="checkboxChange"><checkbox value="weather" checked="" /></checkbox-group>
         </view>
       </view>
       <view class="tags fr">
@@ -55,7 +55,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="knowledge" bindchange="checkboxChange"><checkbox value="knowledge" checked="" /></checkbox-group>
         </view>
       </view>
     </view>
@@ -69,7 +69,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="translate" bindchange="checkboxChange"><checkbox value="translate" checked="" /></checkbox-group>
         </view>
       </view>
       <view class="tags fr">
@@ -81,7 +81,7 @@
           </view>
         </view>
         <view class="choice_pad fl">
-          <checkbox value="" checked="" />
+          <checkbox-group data-index="hotel" bindchange="checkboxChange"><checkbox value="hotel" checked="" /></checkbox-group>
         </view>
       </view>
     </view>

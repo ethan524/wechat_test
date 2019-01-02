@@ -4,17 +4,15 @@
     <view class="preview_infos">
       <view class="preview_names">
         <text class="left_title">机器人名</text>
-        <text class="right_info robot_name">移动服务之家</text>
-      </view>
-      <view class='preview_otherinfos'>
-        <view class="title_text">链接地址</view>
-        <view class="title_desc">移动服务之家</view>
+        <text class="right_info robot_name">{{robot['robot_name']}}</text>
       </view>
       <view class='preview_otherinfos'>
         <view class="title_text">公众号名</view>
-        <view class="title_desc">
-          http://robo.chinamobile.com/webmail/se/ew/m.do?d=agveQtgSU2IRA0txip1s9THfEO1p1SX000004&r=715bda000004&r=715bda
-        </view>
+        <view class="title_desc">{{robot['robot_officialAccounts']}}</view>
+      </view>
+      <view class='preview_otherinfos'>
+        <view class="title_text">链接地址</view>
+        <view class="title_desc">{{robot['robot_url']}}</view>
       </view>
       <view class='preview_otherinfos'>
         <view class="title_text">拥有技能</view>
@@ -48,7 +46,7 @@
     </view>
     <view class="preview_btns">
       <button class="confirm" bindtap='nextstep'>确认上线</button>
-      <button class="pre">上一步</button>
+      <button class="pre" bindtap='backstep'>上一步</button>
     </view>
   </view>
 </view>

@@ -20,7 +20,7 @@ Page({
       success : function(res){
         if(res.authSetting['scope.userInfo']){
           wx.navigateTo({
-            url: '/pages/skill/skill',
+            url: '/pages/createRobot/createRobot',
           })
         }else{
           wx.navigateTo({

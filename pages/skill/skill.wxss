@@ -28,7 +28,7 @@
 }
 .tips-text{
   width:300rpx;
-  height: 250px;
+  height: 250rpx;
   margin-left: 36rpx;
 }
 .clickme-text{
@@ -216,12 +216,4 @@
 
 .skill_try{
   position: relative;
-}
-.contact_btn{
-  width: 708rpx;
-  height:250rpx;
-  background: salmon;
-  opacity: 0;
-  position: absolute;
-  display: inline-block;
 }

@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "tabBar": "/components/tabBar/tabBar"
-  }
+  },
+  "navigationBarTitleText": "智能对话机器人"
 }

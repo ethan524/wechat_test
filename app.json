@@ -6,13 +6,14 @@
     "pages/conversation/conversation",
     "pages/skillInfo/skillInfo",
     "pages/createRobot/createRobot",
-    "pages/createRobot/choiceSkills/choiceSkills",
     "pages/createRobot/robotName/robotName",
+    "pages/createRobot/choiceSkills/choiceSkills",
     "pages/createRobot/submitSRobot/submitSRobot",
     "pages/createRobot/robotPreview/robotPreview",
     "pages/createRobot/onlineResult/onlineResult",
     "pages/myRobot/myRobot",
-    "pages/deleteRobot/deleteRobot"
+    "pages/deleteRobot/deleteRobot",
+    "pages/getExplain/getExplain"
   ],
   "window":{
     "backgroundTextStyle":"dark",

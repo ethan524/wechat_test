@@ -94,9 +94,15 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   color:white;
   margin-bottom: 32rpx;
   margin-top:40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pre{
   background: #FFFFFF;
   color:#555555;
   border:2rpx solid #D3D3D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

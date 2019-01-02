@@ -38,7 +38,7 @@
           </view>
           <view class="operation_set">
             <image src="../../images/options_icon.png" class="operation_img"></image>
-            <view class="btn_text set_color">删除</view>
+            <view class="btn_text set_color" bindtap='jumoToCreate'>设置</view>
           </view>
         </view>
       </view>

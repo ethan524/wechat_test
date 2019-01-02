@@ -16,14 +16,21 @@ Page({
       title: "新建机器人"
     })
   },
-  nextstep : function(){
-    wx.navigateTo({
-      url: '/pages/createRobot/choiceSkills/choiceSkills',
-    })
-  }
-  
+  formsubmit : function(e){
+    var robot = e.detail.value['robot_name'];
+    var regex = new RegExp("^([\u4E00-\uFA29]|[\uE7C7-\uE7F3]|[a-zA-Z0-9_-]){2,20}$");
+    if (!regex.test(robot)){
+      wx.showModal({
+        title: '提示',
+        content: '请争取填写机器人名称,中英文、数字加下划线组合，长度为2~20',
+        showCancel: false,
+      })
+    }
 
+    //验证名称是否重复
   
+    //发送请求
 
-  
+    // 跳转/pages/createRobot/choiceSkills/choiceSkills
+  }  
 })

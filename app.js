@@ -30,7 +30,7 @@ App({
                       wx.openSetting({
                         scope: "scope.userInfo",
                         success : function(res){
-                          console.log('openSetting success', res.authSetting);
+                          // console.log('openSetting success', res.authSetting);
                           res.authSetting = {
                             "scope.userInfo" : true
                           }
@@ -40,6 +40,12 @@ App({
                   }
                 })
               }
+            }
+          })
+        }else{
+          wx.getUserInfo({
+            success : function(res){
+              // console.log(res);
             }
           })
         }

@@ -14,6 +14,11 @@ Component({
       wx.navigateTo({
         url: '/pages/createRobot/robotPreview/robotPreview',
       })
+    },
+    backstep : function(){
+      wx.navigateTo({
+        url: '/pages/createRobot/choiceSkills/choiceSkills',
+      })
     }
   }
 
