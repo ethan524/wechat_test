@@ -16,8 +16,12 @@ Page({
     wx.setNavigationBarTitle({
       title: "智能对话"
     })
-  },
 
+    wx.onSocketMessage(function(res){
+      console.log(res)
+    })
+  },
+  
   
   
 

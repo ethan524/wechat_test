@@ -1,14 +1,12 @@
 <view class="tabBar">
   <view class="tabBar-item home">
-    <navigator open-type="navigate" url="{{ home_url }}">
-      <view class="tarBar_icon"><image src="../../images/icon-home-default-tarbar.png" class="img_home"></image></view>
+    <navigator open-type='navigate' url="/pages/index/index">
+      <view class="tarBar_icon" ><image src="../../images/icon-home-default-tarbar.png" class="img_home"></image></view>
       <view class="tabBar-text">主页</view>
     </navigator>
   </view>
   <view class="tabBar-item skill">
-    <navigator open-type="navigate" url="{{ skill_url }}">
-      <view class="tarBar_icon"><image src="../../images/icon-skill-default-tarbar.png" class="img_skill"></image></view>
+      <view class="tarBar_icon" bindtap='checkLogin'><image src="../../images/icon-skill-default-tarbar.png" class="img_skill"></image></view>
       <view class="tabBar-text">技能</view>
-    </navigator>
   </view>
 </view>

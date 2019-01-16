@@ -25,7 +25,8 @@ Page({
     })
   },
   jumpToConversation : function(res){
-    console.log(res)
-    
+    // wx.navigateTo({
+    //   url: '/pages/conversation/conversation'
+    // })
   }
 })

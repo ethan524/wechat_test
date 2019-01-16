@@ -19,6 +19,21 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+      checkLogin : function(res){
+          wx.checkSession({
+              success: function (res) {
+                //   console.log('login in')
+                  wx.navigateTo({
+                      url: '/pages/skill/skill',
+                  })
+              },
+              fail: function (res) {
+                //   console.log('not login in')
+                  wx.redirectTo({
+                      url: '/pages/login/login?p=skill',
+                  })
+              }
+          })
+      }
   }
 })

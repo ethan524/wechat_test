@@ -13,4 +13,7 @@
     <view class="wxUpdate">请升级您的微信版本</view>
   </view>
   </block>
+  <view class="tabBar-view">
+    <tabBar></tabBar>
+  </view>
 </view>

@@ -49,9 +49,15 @@
   height: 94rpx;
   margin-top:68rpx;
 }
-.exercise_btn image{
+.exercise_btn button{
   width:484rpx;
   height: 94rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4DDEFF;
+  color:#222627;
+  border-radius: 50rpx;
 }
 .platform,.copyright{
   display: flex;

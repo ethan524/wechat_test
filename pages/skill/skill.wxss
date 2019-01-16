@@ -217,3 +217,12 @@
 .skill_try{
   position: relative;
 }
+.contact_btn{
+  width: 708rpx;
+  height:250rpx;
+  position: absolute;
+  left: 0rpx;
+  top:0rpx;
+  opacity: 0;
+  z-index: 99;
+}

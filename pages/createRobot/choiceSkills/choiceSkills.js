@@ -50,6 +50,10 @@ Page({
         choice_skill.push(x)
       }
     }
+    wx.navigateTo({
+      url: '/pages/createRobot/submitSRobot/submitSRobot',
+    })
+
     console.log(choice_skill)
     // wx.request({
     //   url: '',

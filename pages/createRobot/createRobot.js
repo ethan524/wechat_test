@@ -56,27 +56,30 @@ Page({
     var isRead = e.detail.value.isRead;                               // 是否阅读并同意
 
     var regex = new RegExp("^([\u4E00-\uFA29]|[\uE7C7-\uE7F3]|[a-zA-Z0-9_-]){4,30}$");
-    if (!regex.test(officialAccounts)){
-      this.showTips('请正确填写公众号名称');
-      return false;
-    }
+    // if (!regex.test(officialAccounts)){
+    //   this.showTips('请正确填写公众号名称');
+    //   return false;
+    // }
 
     // if (this.data['nameIsexists']) {
     //   this.showTips("抱歉，公众号名称已存在");
     //   return false;
     // }
 
-    if (!util.IsURL(officialAccountsUrl)){
-      this.showTips('请正确填写连接地址');
-      return false;
-    }
+    // if (!util.IsURL(officialAccountsUrl)){
+    //   this.showTips('请正确填写连接地址');
+    //   return false;
+    // }
 
-    if (!this.data['checkbox']){
-      this.showTips("请勾选‘相关条例’");
-      return false;
-    }
+    // if (!this.data['checkbox']){
+    //   this.showTips("请勾选‘相关条例’");
+    //   return false;
+    // }
 
     // 发送请求 存取数据
+    wx.navigateTo({
+      url: '/pages/createRobot/robotName/robotName',
+    })
 
   },
   /**

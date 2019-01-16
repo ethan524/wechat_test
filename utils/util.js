@@ -33,7 +33,53 @@ function IsURL(str_url) {
   }
 }
 
+function login(jump_url)
+{
+    wx.login({
+        success: function (res) {
+            if (res.code) {
+                wx.getUserInfo({
+                    withCredentials: true,
+                    success: function (res_user) {
+                        var params = {
+                            code: res.code,
+                            encryptedData: res_user.encryptedData,
+                            iv: res_user.iv,
+                            signature: res_user.signature,
+                            rawData: res_user.rawData
+                        }
+                        wx.request({
+                            url: 'https://gyh.phpmoo.com/web/wx/login/login.php',
+                            data: params,
+                            header: { 'content-type': 'application/json' },
+                            success: function (res) {
+                                if (res.statusCode == 200 && res['data'][1]['openId'] != undefined){
+                                    var userInfos = {};
+                                    userInfos['nickName'] = res['data'][1]['nickName'];
+                                    userInfos['avatarUrl'] = res['data'][1]['avatarUrl'];
+                                    userInfos['country'] = res['data'][1]['country'];
+                                    userInfos['gender'] = res['data'][1]['gender'];
+                                    userInfos['openId'] = res['data'][1]['openId'];
+                                    userInfos['session3rd'] = res['data'][0]['session3rd'];
+                                    console.log(userInfos);
+                                    wx.setStorageSync('userInfos', userInfos);
+                                    wx.redirectTo({
+                                        url: jump_url
+                                    })
+                                }else{
+                                    console.log('login faild')
+                                }
+                            }
+                        })
+                    }
+                })
+            }
+        }
+    })
+}
+
 module.exports = {
-  formatTime: formatTime,
-  IsURL: IsURL
+    formatTime: formatTime,
+    IsURL: IsURL,
+    login : login
 }
