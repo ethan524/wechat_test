@@ -29,10 +29,19 @@
 .middle_line{
   margin:-2rpx 20rpx 0rpx;
 }
+.v_line_view{
+    display: flex;
+    width:100%;
+    height: auto;
+    justify-content: center;
+}
 .v_line{
   width:664rpx;
   border:2rpx solid;
   border-image:linear-gradient(270deg, rgba(255,255,255,0), rgba(0,231,255,1), rgba(255,255,255,0)) 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .verison{
   display: flex;
@@ -48,6 +57,16 @@
   justify-content: center;
   height: 94rpx;
   margin-top:68rpx;
+}
+.exercise_btn image{
+  width:484rpx;
+  height: 94rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4DDEFF;
+  color:#222627;
+  border-radius: 50rpx;
 }
 .exercise_btn button{
   width:484rpx;
@@ -70,7 +89,7 @@
 }
 .copyright{
   height:20rpx;
-  margin-top: 10rpx;
+  margin-top: 30rpx;
   font-size:20rpx;
   line-height: 10rpx;
 }

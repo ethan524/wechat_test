@@ -2,7 +2,7 @@
   <scroll-view scroll-y class="body_view">
     <view class="skill_title">样例机器人</view>
     <view class="skill_try" bindtap='jumpToConversation' >
-      <view class="tips-image"><image src="../../images/illlus1.png"></image></view>
+      <view class="tips-image"><image src="../../images/illlus@2x.png"></image></view>
       <view class="tips-text" >
         <view class="clickme-text"><text>点我试试看哦~</text></view>
         <view class="tips-tipstext"><text>亲可以尝试与我互动~</text></view>
@@ -17,7 +17,7 @@
     <view class="skill_skills">
       <view class="skills">
         <view class="skill_tag" bindtap="jumpToInfo" data-params="communication">
-          <view class="left_logo "><image src="../../images/Group41.png"></image></view>
+          <view class="left_logo "><image src="../../images/Group13@3x.png"></image></view>
           <view class="right_intro">
               <view class="r_title">移动业务查询</view>
               <view class="r_title_intro">套餐/花费/流量</view>
@@ -25,7 +25,7 @@
           </view>
         </view>
         <view class="skill_tag" bindtap="jumpToInfo" data-params="joke">
-          <view class="left_logo   "><image src="../../images/Group42.png"></image></view>
+          <view class="left_logo   "><image src="../../images/Group4@2x.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">寒暄笑话</view>
               <view class="r_title_intro">闲聊/寒暄/笑话</view>
@@ -33,7 +33,7 @@
             </view>
         </view>
         <view class="skill_tag" bindtap="jumpToInfo" data-params="weather">
-          <view class="left_logo "><image src="../../images/Group43.png"></image></view>
+          <view class="left_logo "><image src="../../images/Group4_weather@2x.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">天气查询</view>
               <view class="r_title_intro">能帮您实时查询</view>
@@ -41,7 +41,7 @@
             </view>
         </view>
         <view class="skill_tag" bindtap="jumpToInfo" data-params="knowledge">
-          <view class="left_logo   "><image src="../../images/Group45.png"></image></view>
+          <view class="left_logo   "><image src="../../images/Group4_books@2x.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">知识百科</view>
               <view class="r_title_intro">最全的百科知识</view>
@@ -49,7 +49,7 @@
             </view>
         </view>
         <view class="skill_tag no_bottom" bindtap="jumpToInfo" data-params="translate">
-          <view class="left_logo   "><image src="../../images/Group46.png"></image></view>
+          <view class="left_logo   "><image src="../../images/Group4_transfer@2x.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">实时翻译</view>
               <view class="r_title_intro">具实时翻译功能</view>
@@ -57,7 +57,7 @@
             </view>
         </view>
         <view class="skill_tag no_bottom" bindtap="jumpToInfo" data-params="hotel">
-          <view class="left_logo   "><image src="../../images/Group44.png"></image></view>
+          <view class="left_logo   "><image src="../../images/Group4_skill@2x.png"></image></view>
             <view class="right_intro   ">
               <view class="r_title">酒店预订</view>
               <view class="r_title_intro">机器人帮您轻松</view>

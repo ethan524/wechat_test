@@ -3,7 +3,7 @@ var util = require("../../utils/util.js");
 Page({
     data: {
         "background": "/images/backgr.png",  //背景图片
-        "logo_robot": "/images/logo-robot.png",
+        "logo_robot": "/images/logo-robot@3x.png",
     },
     onLoad: function () {
         var that = this;

@@ -16,12 +16,12 @@ Page({
       "hotel": "酒店预订",
     },
     "skillImg" : {
-      "communication": "/images/yidong_bg.png",
-      "joke": "/images/joke_bg.png",
-      "weather": "/images/weather_bg.png",
-      "translate": "/images/translate_bg.png",
-      "knowledge": "/images/knowledge_bg.png",
-      "hotel": "/images/hotel_bg.png",
+        "communication": "/images/yidong_bg@2x.png",
+        "joke": "/images/joke_bg@2x.png",
+        "weather": "/images/weather_bg@2x.png",
+        "translate": "/images/translate_bg@2x.png",
+        "knowledge": "/images/knowledge_bg@2x.png",
+        "hotel": "/images/hotel_bg@2x.png",
     },
     "skillDesc" : {
       "communication": "帮助用户通过客服聊天方式，快速准确查询本机移动业务情况，如套餐余量、话费、流量等相关业务信息",
