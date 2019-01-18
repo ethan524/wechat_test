@@ -58,10 +58,12 @@
 checkbox .wx-checkbox-input{
   border-radius: 40rpx;
   background: white;
+  border:none;
 }
 checkbox .wx-checkbox-input.wx-checkbox-input-checked {
   background: #007CFF;
   color:white;
+  border:none;
 }
 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   width: 40rpx;
@@ -73,6 +75,10 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   background: transparent;
   transform: translate(-50%, -50%) scale(1);
   -webkit-transform: translate(-50%, -50%) scale(1);
+  border:none;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::after{
+    border:none;
 }
 .skill_check{
   margin-bottom: 20rpx;
@@ -105,4 +111,7 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+button::after{
+    border:none;
 }

@@ -21,7 +21,7 @@ Page({
             },
             fail : function(res){
                 wx.redirectTo({
-                    url: '/pages/login/login?p=createRobot',
+                    url: '/pages/login/login?p=index',
                 })
             }
         })

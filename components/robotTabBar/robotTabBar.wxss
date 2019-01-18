@@ -66,3 +66,6 @@
   color:white;
   width:460rpx;
 }
+button::after{
+  border:none;  
+}

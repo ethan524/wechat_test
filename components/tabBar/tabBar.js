@@ -3,37 +3,25 @@ Component({
   /**
    * 组件的属性列表
    */
-  properties: {
+    properties: {
 
-  },
+    },
 
   /**
    * 组件的初始数据
    */
-  data: {
-    "home_url" : "/pages/index/index?title='智能对话机器人'",
-    "skill_url" : "/pages/skill/skill?title='技能'"
-  },
+    data: {},
 
   /**
    * 组件的方法列表
    */
-  methods: {
-      checkLogin : function(res){
-          wx.checkSession({
-              success: function (res) {
-                //   console.log('login in')
-                  wx.navigateTo({
-                      url: '/pages/skill/skill',
-                  })
-              },
-              fail: function (res) {
-                //   console.log('not login in')
-                  wx.redirectTo({
-                      url: '/pages/login/login?p=skill',
-                  })
-              }
-          })
-      }
-  }
+    methods: {
+        jump : function(e){
+            var id = e.currentTarget['id'];
+            var url = id == 'home' ? '/pages/index/index' : '/pages/skill/skill' ;
+            wx.redirectTo({
+                url: url,
+            })
+        }
+    }
 })

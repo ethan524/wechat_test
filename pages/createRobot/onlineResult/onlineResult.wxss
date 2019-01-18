@@ -7,13 +7,13 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height:186rpx;
+  height:190rpx;
   margin-top:102rpx;
   margin-bottom: 50rpx;
 }
 .image_view image{
-  width:186rpx;
-  height:186rpx;
+  width:190rpx;
+  height:190rpx;
 }
 .online_text{
   color:#000000;
@@ -84,4 +84,7 @@ button{
 .copyright{
   color:#B2B2B2;
   font-size:20rpx;
+}
+button::after{
+    border:none;
 }

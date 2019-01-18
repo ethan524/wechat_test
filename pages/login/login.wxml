@@ -1,7 +1,7 @@
 <view class='container'>
   <block wx:if="{{canUse}}">
   <view class="body_view">
-    <view class="logo_view"><image src="../../images/logo-robot.png"></image></view>
+    <view class="logo_view"><image src="../../images/logo-robot@3x.png"></image></view>
     <view class='line'></view>
     <view class="title">申请获取以下权限</view>
     <view class="auth_list">获得您的公开信息(昵称、头像等)</view>

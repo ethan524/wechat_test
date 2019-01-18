@@ -1,7 +1,7 @@
 <view class="container">
   <scroll-view scroll-y class="body_view">
     <view class="skill_title">样例机器人</view>
-    <view class="skill_try" bindtap='jumpToConversation' >
+    <view class="skill_try"  >
       <view class="tips-image"><image src="../../images/illlus@2x.png"></image></view>
       <view class="tips-text" >
         <view class="clickme-text"><text>点我试试看哦~</text></view>
@@ -78,8 +78,8 @@
     <view class="input_view">
       <input class="user_try_input" placeholder="您可在样例机器人中尝试输入" type='text' />
     </view>
-    <view class="skill_create">
-      <view class="create_image"><image src="../../images/illlus.png"></image></view>
+    <view class="skill_create" bindtap='checkLogin'>
+      <view class="create_image"><image src="../../images/illlus@3x.png"></image></view>
       <view class="create_text">
           <view class="create_up_text"><text>新建机器人</text></view>
           <view class="create_down_text"><text>亲可新建自己的机器人</text></view>

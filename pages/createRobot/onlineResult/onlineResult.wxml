@@ -2,7 +2,7 @@
   <view class="body_view">
     <block wx:if="{{flag}}">
       <view class="image_view">
-        <image src="../../../images/online_yes.png" ></image>
+        <image src="../../../images/online_yes@3x.png" ></image>
       </view>
       <view class="online_text">上线成功</view>
       <view class="online_desc">
@@ -14,7 +14,7 @@
     </block>
     <block wx:elif="{{!flag}}">
       <view class="image_view">
-        <image src="../../../images/alert.png" ></image>
+        <image src="../../../images/alert@3x.png" ></image>
       </view>
       <view class="online_text">提交失败</view>
       <view class="online_desc online_desc_false" >

@@ -61,11 +61,15 @@ function login(jump_url)
                                     userInfos['gender'] = res['data'][1]['gender'];
                                     userInfos['openId'] = res['data'][1]['openId'];
                                     userInfos['session3rd'] = res['data'][0]['session3rd'];
-                                    console.log(userInfos);
+                                    // console.log(userInfos);
                                     wx.setStorageSync('userInfos', userInfos);
+                                    console.log(jump_url)
                                     wx.redirectTo({
                                         url: jump_url
                                     })
+                                    // wx.reLaunch({
+                                    //     url: jump_url
+                                    // })
                                 }else{
                                     console.log('login faild')
                                 }

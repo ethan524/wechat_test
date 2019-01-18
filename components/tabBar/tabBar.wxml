@@ -1,12 +1,14 @@
 <view class="tabBar">
-  <view class="tabBar-item home">
-    <navigator open-type='navigate' url="/pages/index/index">
-      <view class="tarBar_icon" ><image src="../../images/icon-home-default@2x.png" class="img_home"></image></view>
-      <view class="tabBar-text">主页</view>
-    </navigator>
-  </view>
-  <view class="tabBar-item skill">
-      <view class="tarBar_icon" bindtap='checkLogin'><image src="../../images/icon-skill-active@2x.png" class="img_skill"></image></view>
-      <view class="tabBar-text">技能</view>
-  </view>
+    <view class="tabBar-item home" bindtap='jump' id="home">
+        <view class="tarBar_icon" >
+            <image src="../../images/icon-home-default@2x.png" class="img_home"></image>
+        </view>
+        <view class="tabBar-text">主页</view>
+    </view>
+    <view class="tabBar-item skill" bindtap='jump' id="skill">
+        <view class="tarBar_icon" >
+            <image src="../../images/icon-skill-active@2x.png" class="img_skill"></image>
+        </view>
+        <view class="tabBar-text" >技能</view>
+    </view>
 </view>

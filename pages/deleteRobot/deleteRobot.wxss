@@ -85,3 +85,6 @@ button{
   color:#B2B2B2;
   font-size:20rpx;
 }
+button::after{
+    border:none;
+}

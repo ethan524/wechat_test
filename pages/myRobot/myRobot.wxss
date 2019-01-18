@@ -35,7 +35,7 @@
   border-bottom: 2rpx solid #C1C1C1;
 }
 .my_robot_img{
-  width:130rpx;
+  width:134rpx;
   height:130rpx;
   display: flex;
   margin:68rpx 47rpx 48rpx 64rpx;

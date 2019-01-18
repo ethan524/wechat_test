@@ -3,21 +3,32 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    "canUse": wx.canIUse('button.open-type.getUserInfo'),
-    "url" : ''
-  },
+    data: {
+        "canUse": wx.canIUse('button.open-type.getUserInfo'),
+        "url" : ''
+    },
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-      if(options['p']){
-        //   var url = options['p'] == 'createRobot' ? '/pages/index/index' : '/pages/skill/skill';
-          var url = '/pages/index/index';
-          this.setData({
-              "url" : url
-          })
-      }
+    onLoad: function (options) {
+        if(options['p']){
+            if (options['p'] == 'index'){
+                var url = '/pages/index/index';
+            }
+            if (options['p'] == 'skill') {
+                var url = '/pages/skill/skill';
+            }
+            this.setData({
+                "url" : url
+            })
+        }
+        wx.checkSession({
+            success: function (res) {
+                wx.navigateTo({
+                    url: '/pages/index/index',
+                })
+            }
+        })
   },
   bindgetuserinfo : function(res){
     var that = this;

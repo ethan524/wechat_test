@@ -18,27 +18,27 @@
         <view class="title_text">拥有技能</view>
         <view class="skills">
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="" disabled />
             <text>笑话寒暄</text>
           </view>
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="checked" disabled />
             <text>移动业务查询</text>
           </view>
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="" disabled />
             <text>天气查询</text>
           </view>
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="checked" disabled />
             <text>知识百科</text>
           </view>
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="" disabled />
             <text>实时翻译</text>
           </view>
           <view class="skill_check">
-            <checkbox value="" checked="checked" />
+            <checkbox value="" checked="checked" disabled />
             <text>酒店预订</text>
           </view>
         </view>

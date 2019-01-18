@@ -1,7 +1,7 @@
 <view class='container page'>
   <view class="body_view">
     <view class="image_view">
-      <image src="../../images/alert.png" ></image>
+      <image src="../../images/alert@3x.png" ></image>
     </view>
     <view class="online_text">请确认是否删除</view>
     <view class="online_desc online_desc_false" >

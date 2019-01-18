@@ -1,14 +1,11 @@
 {
   "pages":[
-      "pages/createRobot/createRobot",
-
-
     "pages/index/index",
+    "pages/skill/skill",
     "pages/login/login",
     "pages/conversation/conversation",
-    "pages/skill/skill",
     "pages/skillInfo/skillInfo",
-    
+    "pages/createRobot/createRobot",
     "pages/createRobot/robotName/robotName",
     "pages/createRobot/choiceSkills/choiceSkills",
     "pages/createRobot/submitSRobot/submitSRobot",

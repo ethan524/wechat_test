@@ -3,9 +3,13 @@
       <view class="top_title"><view class="top-title-text">样例机器人正在为您服务</view></view>
       <!--对话部分开始-->
       <view class="lines">
-        <view class="robot_img"><image src="../../images/robot_portrait.png"></image></view>
+        <view class="robot_img"><image src="../../images/robot_portrait@3x.png"></image></view>
         <view class="robot_words">您好！我是九天智能对话机器人小移，很高兴遇到您！</view>
       </view>
+      <view class="lines user_lines">
+        <view class="user_words">你好</view>
+        <view class="user_img"><image src="../../images/user_portrait@3x.png"></image></view>
+        </view>
       <!--对话部分结束-->
 
     </scroll-view>
